@@ -1,0 +1,227 @@
+ol li{
+    background-color: yellow;
+}
+ 
+ol li:nth-child(even) {
+  color: green;
+} 
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+} 
+
+h1, h3 {
+  color: red;
+}
+
+h1 em, h3 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 700;
+}
+
+#linguagens li:not(:nth-child(n + 4)) {
+  color: blue;
+} 
+
+.pink-bg {
+  background-color: pink;
+}
+
+#aliados li a:hover {
+  font-weight: 700;
+}
+
+#aliados li a[href*="stackoverflow"] {
+  color: orange;
+}
+
+#aliados li a[href*="w3schools"] {
+  color: green;
+}
+
+#aliados li a[href*="mozilla"] {
+  color: black;
+}
+
+#aliados li a[href*="devdocs"] {
+  color: yellow;
+}
+
+#aliados li a[href*="trybe"] {
+  color: green;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+/*
+ 1. Estilize as divs para que, ao passar o cursor por cima das mesmas,
+elas ganhem uma borda. 
+div:hover {
+    border: 6px solid black;
+  }
+  
+   2. Faça cada div ter uma cor própria. 
+  div:nth-of-type(1) {
+    background-color: red;
+  }
+  
+  div:nth-of-type(2) {
+    background-color: green;
+  }
+  
+  div:nth-of-type(3) {
+    background-color: yellow;
+  }
+  
+  div:nth-of-type(4) {
+    background-color: grey;
+  }
+  
+  div:nth-of-type(5) {
+    background-color: lightblue;
+  }
+  
+   3. Estilize cada uma das tags <h3>. 
+   Aqui estamos pegando a primeira div e o primeiro h3 
+  
+  div:nth-of-type(1) > h3 {
+    color: purple;
+  }
+  
+  Aqui estamos pegando a segunda div e o primeiro h3 e assim por diante nas próximas div 
+  
+  div:nth-of-type(2) > h3 {
+    color: green 
+  }
+  
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+  
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+  
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
+  
+  4. Faça a terceira div ser maior que as demais.
+  div:nth-of-type(3) {
+    height: 100px;
+  }
+  
+   5. Deixe as tags ímpares <h3> com o texto em itálico. 
+  div:nth-child(odd) h3 {
+    font-style: italic
+  } 
+
+*/
+
+/*
+h1, p {
+    text-align: center;
+}
+
+ol:hover {
+    background-color: aqua;
+}
+
+li:hover {
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 400;
+}
+
+ol, ul{
+    list-style: none;
+}
+*/
+
+/*
+.super-mario {
+    width: 200px;
+    position: absolute;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 370px;
+    left: 65px;
+  }
+  
+  .baloon {
+    left: 200px;
+    margin-top: 80px;
+    margin-left: 270px;
+  }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute;
+    left: 300px;
+    top: 190px;
+  }
+  
+  .bowser {
+    width: 200px;
+    position: absolute;
+    left: 590px;
+    top: 300px;
+  }
+  */
+
+/*
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+   insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D 
+  .padding {
+      padding: 20px;
+  }
+  
+   insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D 
+  .margin {
+      margin: 30px;
+  }
+  
+   insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D 
+  .border {
+      border: 5px solid black;
+  }
+  */
+  
