@@ -5,3 +5,6 @@
 - 02/05/22 - criado repositorio e lançado os exercicios criados nas aulas 2.1, ref. ao Bloco 2 (GIT & GITHUB) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
 - 03/05/22 - criado repositorio e lançado os exercicios criados nas aulas 2.2, ref. ao Bloco 2 (GIT & GITHUB) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
+- 08/05/22 - criado repositorio e lançado os exercicios criados nas aulas 2.3, ref. ao Bloco 2 (GIT & GITHUB) e 3.1 - 3.2 - 3.3, ref. ao BLOCO 3 (INTRODUÇAO A HTML E CSS) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
