@@ -10,3 +10,5 @@
 
 - 11/05/22 - criado repositorio e lançado os exercicios criados na aula 3.4, ref. ao BLOCO 3 (INTRODUÇAO A HTML E CSS) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
+- 13/05/22 - criado repositorio e lançado os exercicios criados na aula 4.1, ref. ao BLOCO 4 (INTRODUCAO A JAVASCRIPT E LÓGICA DE PROGRAMAÇAO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
