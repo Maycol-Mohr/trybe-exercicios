@@ -12,3 +12,5 @@
 
 - 13/05/22 - criado repositorio e lançado os exercicios criados na aula 4.1, ref. ao BLOCO 4 (INTRODUCAO A JAVASCRIPT E LÓGICA DE PROGRAMAÇAO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
+- 14/05/22 - criado repositorio e lançado os exercicios criados na aula 4.2, ref. ao BLOCO 4 (INTRODUCAO A JAVASCRIPT E LÓGICA DE PROGRAMAÇAO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
