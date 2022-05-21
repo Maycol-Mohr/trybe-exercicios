@@ -20,3 +20,5 @@
 
 - 20/05/22 - criado repositorio e lançado os exercicios criados na aula 5.1, ref. ao BLOCO 5 (INTRODUCAO A JAVASCRIPT E LÓGICA DE PROGRAMAÇAO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
+- 21/05/22 - criado repositorio e lançado os exercicios criados na aula 5.2, ref. ao BLOCO 5 (INTRODUCAO A JAVASCRIPT E LÓGICA DE PROGRAMAÇAO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
