@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe-Trip</title>
+    <style>
+        body {
+            border: 5px solid red;
+            background-color: yellow;
+            width: 700px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        #texto-1 {
+            background-color: green;
+        }
+        #enviar {
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+        }
+        #apagar {
+            width: 90px;
+            height: 40px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="GET" enctype="multipart/form-data">
+        <label for="nome-completo">NOME:
+            <input type="text" name="nome" id="nome-completo" placeholder="digite seu nome" maxlength="40" minlength="10" required>
+        </label>
+        <br>
+        <br>
+        <label for="email-completo">EMAIL:
+            <input type="email" name="email" id="email-completo" placeholder="digite seu email" maxlength="50" minlength="10" required>
+        </label>
+        <br>
+        <br>
+        <input type="radio" id="lazer-1" name="lazer" value="" required>Cidade
+        <input type="radio" id="lazer-2" name="lazer" value="" required>Campo
+        <input type="radio" id="lazer-3" name="lazer" value="" required>Praias
+        <input type="radio" id="lazer-4" name="lazer" value="" required>Montanha
+        <br>
+        <br>
+        <label for="texto-1">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+        <br>
+        <br>
+        <textarea name="texto" id="texto-1" cols="50" rows="10" maxlength="500" minlength="5"></textarea>
+        </label>
+        <br>
+        <br>
+        <p>Qual a melhor data para realizar sua viagem?</p>
+        <label for="data-completo">DATA:
+            <input type="date" name="data" id="data-completo" placeholder="dd/mm/aaaa">
+        </label>
+        <br>
+        <br>
+        <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+        <label for="concordar-1"> Sim
+        <input type="checkbox" name="concordar" id="concordar-1">
+        </label>
+        <label for="concordar-2"> Nao
+            <input type="checkbox" name="concordar" id="concordar-2">
+            </label>
+        <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+        <label for="agreement"> Sim
+        <input type="checkbox" name="agreement" id="agreement" required>
+        </label>
+            <br>
+            <br>
+            <button type="submit" id="enviar" disabled>Participar do Concurso Trybe-Trip</button>
+            <button type="reset2" id="apagar">Apagar Informaçoes</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
