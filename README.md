@@ -32,3 +32,5 @@
 
 - 03/06/22 - criado repositorio e lançado os exercicios criados na aula 6.3, ref. ao BLOCO 6 (HTML e CSS: FORMS, FLEXBOX E RESPONSIVO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
+- 04/06/22 - criado repositorio e lançado os exercicios criados na aula 6.4, ref. ao BLOCO 6 (HTML e CSS: FORMS, FLEXBOX E RESPONSIVO) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
