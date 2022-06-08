@@ -1,0 +1,577 @@
+
+
+
+
+/*
+body {
+  margin: 0;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  background: #fff;
+}
+
+#header {
+  background: #ccc;
+  padding: 20px;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#navigation {
+  width: 100%;
+  background: #333;
+}
+
+#navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li {
+  list-style-type: none;
+  display: flex;
+}
+
+#navigation li a {
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+
+#navigation li a:hover {
+  background: #383;
+}
+
+#content-container {
+  background: #FFF;
+  display: flex;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 20px 0;
+  margin: 0 0 0 4%;
+}
+
+#content h2 {
+  margin: 0;
+}
+
+#aside {
+  width: 33%;
+  padding: 20px 0;
+  margin: 0 3% 0 0;
+}
+
+#aside h3 {
+  margin: 5px;
+}
+
+#footer {
+  background: #ccc;
+  text-align: right;
+  padding: 20px;
+  height: 1%;
+}
+*/
+/** For printing **/
+/*@media print {
+  #header,
+  #navigation,
+  #footer {
+    display: none;
+  }
+
+  #content {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #aside {
+    display: flex;
+    flex-direction: column;
+    page-break-inside: avoid;
+  }
+}
+*/
+/** For small phones/windows **/
+/*@media (max-width: 700px) {
+  body {
+    padding: 0px;
+  }
+
+  #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+  }
+
+  #navigation {
+    margin-top: 75px;
+  }
+
+  #content-container {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #content {
+    width: 80%;
+    text-align: justify;
+  }
+
+  #aside {
+    display: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+}
+
+p {
+  padding: 20px;
+}
+
+/* TODO */
+
+/* Aqui está o primeiro breakpoint e os estilos definidos para ele */
+/*
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightcoral;
+    font-family: sans-serif;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    padding: 0 5px;
+    line-height: 1.5em;
+  }
+
+  /* TODO */
+
+
+/* Aqui está o segundo breakpoint e os estilos definidos para ele */
+/*
+@media screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  /* TODO */
+
+
+/* Aqui está o terceiro breakpoint e os estilos definidos para ele */
+/*
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  /* TODO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ /*
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1.2em/1.2 Helvetica, aria, sans-serif;
+  margin: 0 3%;
+}
+
+article {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: .9em 0 0 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.5em 0 0 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+figure {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  margin: 0 0 25px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: .8em;
+}
+
+@media screen and (min-width: 794px) {
+  body {
+    background: rgba(0,0,255,.2);
+    margin: 25px 6%;
+  }
+
+  figure {
+    width: 45%;
+    margin-right: 4.5%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body {
+    background: rgba(0,255,0,.2);
+    margin: 25px 10%;
+    max-width: 1130px;
+  }
+
+  figure {
+    width: 30%;
+    margin-right: 2.5%;
+  }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+  align-items: center;
+  color: #525252;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Raleway, sans-serif;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+}
+
+h1 {
+  font-family: Cinzel, serif;
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+p.trick {
+  color: white;
+  font-size: 14px;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+.card p:nth-last-child(1) {
+  align-self: flex-end;
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  border-radius: 5px;
+  color: white;
+  display: none;
+  flex-flow: row wrap;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+.card:nth-of-type(1) {
+  background-color: #0fa36b;
+}
+
+.card:nth-of-type(2) {
+  background-color: #0255c2;
+}
+
+.card:nth-of-type(3) {
+  background-color: #41197f;
+}
+
+
+
+@media (min-width: 500px) {
+  .card:nth-of-type(1) {
+    display: block;
+  }
+}
+
+@media (min-width: 600px ) and (max-width: 1000px) {
+  .card:nth-of-type(2) {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .card:nth-of-type(3) {
+    display: block;
+  }
+}
+
+@media (min-width: 950px) {
+  .card:nth-of-type(3) {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  p.trick {
+    color: black;
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 268px;
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-basis: 500px;
+    order: 1;
+    flex-grow: 1;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+  }
+  
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 700px;
+    flex-grow: 10;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+    flex-basis: 16%;
+    flex-grow: 1;
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-basis: 350px;
+    align-self: center;
+    flex-grow: 1;
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+  }
+
+*/
+
+
+
+
+
+
+
+
+/* Adiciona o CSS do Pikaday */
+/*
+@import './node_modules/pikaday/css/pikaday.css';
+*/
+/* style.css */
+/*
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  */
