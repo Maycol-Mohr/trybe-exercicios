@@ -38,3 +38,5 @@
 
 - 09/06/22 - criado repositorio e lançado os exercicios criados na aula 7.1, ref. ao BLOCO 7 (INTRODUCAO À JAVASCRIPT ES6 E TESTES UNITÁRIOS) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
+- 10/06/22 - criado repositorio e lançado os exercicios criados na aula 7.2, ref. ao BLOCO 7 (INTRODUCAO À JAVASCRIPT ES6 E TESTES UNITÁRIOS) do Módulo 1 (Fundamentos do Desenvolvimento Web).
+
