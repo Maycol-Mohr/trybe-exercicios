@@ -8,14 +8,14 @@
     <style>
         body {
             border: 5px solid red;
-            background-color: yellow;
+            background-color: orange;
             width: 700px;
             padding-left: 20px;
             padding-top: 20px;
             padding-bottom: 20px;
         }
         #texto-1 {
-            background-color: green;
+            background-color: white;
         }
         #enviar {
             width: 200px;
@@ -42,16 +42,24 @@
         </label>
         <br>
         <br>
-        <input type="radio" id="lazer-1" name="lazer" value="" required>Cidade
-        <input type="radio" id="lazer-2" name="lazer" value="" required>Campo
-        <input type="radio" id="lazer-3" name="lazer" value="" required>Praias
-        <input type="radio" id="lazer-4" name="lazer" value="" required>Montanha
+        <label for="lazer-1">
+        <input type="radio" id="lazer-1" name="lazer" value="cid" required>Cidade
+        </label>
+        <label for="lazer-2">
+        <input type="radio" id="lazer-2" name="lazer" value="cam" required>Campo
+        </label>
+        <label for="lazer-3">
+        <input type="radio" id="lazer-3" name="lazer" value="pra" required>Praias
+        </label>
+        <label for="lazer-4">
+        <input type="radio" id="lazer-4" name="lazer" value="mon" required>Montanha
+        </label>
         <br>
         <br>
         <label for="texto-1">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
         <br>
         <br>
-        <textarea name="texto" id="texto-1" cols="50" rows="10" maxlength="500" minlength="5"></textarea>
+        <textarea name="texto" id="texto-1" cols="50" rows="10" maxlength="500" minlength="5" placeholder="Digite sua resposta vencedora aqui..."></textarea>
         </label>
         <br>
         <br>
@@ -61,21 +69,22 @@
         </label>
         <br>
         <br>
-        <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
-        <label for="concordar-1"> Sim
+        <label for="concordar-1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
         <input type="checkbox" name="concordar" id="concordar-1">
         </label>
-        <label for="concordar-2"> Nao
-            <input type="checkbox" name="concordar" id="concordar-2">
-            </label>
-        <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
-        <label for="agreement"> Sim
+        <br>
+        <br>
+        <label for="agreement">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
         <input type="checkbox" name="agreement" id="agreement" required>
         </label>
             <br>
             <br>
+            <label for="enviar">
             <button type="submit" id="enviar" disabled>Participar do Concurso Trybe-Trip</button>
-            <button type="reset2" id="apagar">Apagar Informaçoes</button>
+            </label>
+            <label for="apagar">
+            <button type="button" id="apagar">Apagar Informaçoes</button>
+            </label>
     </form>
     <script src="script.js"></script>
 </body>
