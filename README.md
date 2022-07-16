@@ -52,3 +52,5 @@
 
 - 03/07/22 - criado repositorio e lançado os exercicios criados na aula 8.5, ref. ao BLOCO 8 (JAVASCRIPT - HOF) do Módulo 1 (Fundamentos do Desenvolvimento Web).
 
+- 16/07/22 - criado repositorio e lançado os exercicios criados nas aulas 9.1 - 9.2 - 9.3, ref. ao BLOCO 9 (JAVASCRIPT E TESTES ASSÍNCRONOS) do Módulo 2 (Desenvolvimento Front-end).
+
