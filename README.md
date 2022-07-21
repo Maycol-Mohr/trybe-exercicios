@@ -54,3 +54,5 @@
 
 - 16/07/22 - criado repositorio e lançado os exercicios criados nas aulas 9.1 - 9.2 - 9.3, ref. ao BLOCO 9 (JAVASCRIPT E TESTES ASSÍNCRONOS) do Módulo 2 (Desenvolvimento Front-end).
 
+- 21/07/22 - criado repositorio e lançado os exercicios criados nas aulas 10.1 - 10.2, ref. ao BLOCO 10 (INTRODUÇAO A RECT) do Módulo 2 (Desenvolvimento Front-end).
+
