@@ -1,0 +1,20 @@
+.about {
+  background-color: yellow;
+}
+
+img {
+  width: 800px;
+  height: 500px;
+}
+
+img:hover {
+  width: 850px;
+  height: 550px;
+}
+
+h2:hover {
+  font-size: 30px;
+  color: red;
+}
+
+ 

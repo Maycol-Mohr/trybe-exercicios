@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.pokes {
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+}
