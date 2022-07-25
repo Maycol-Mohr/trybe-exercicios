@@ -56,3 +56,6 @@
 
 - 21/07/22 - criado repositorio e lançado os exercicios criados nas aulas 10.1 - 10.2, ref. ao BLOCO 10 (INTRODUÇAO A RECT) do Módulo 2 (Desenvolvimento Front-end).
 
+
+- 25/07/22 - criado repositorio e lançado os exercicios criados nas aulas 11.1 - 11.2, ref. ao BLOCO 11 (COMPONENTES COM ESTADOS, EVENTOS E FORMULÁRIOS) do Módulo 2 (Desenvolvimento Front-end).
+
