@@ -63,3 +63,7 @@
 
 - 10/08/22 - criado repositorio e lançado os exercicios criados na aula 14.1, ref. ao BLOCO 14 (TESTES AUTOMATIZADOS COM REACT) do Módulo 2 (Desenvolvimento Front-end).
 
+- 14/08/22 - criado repositorio e lançado os exercicios criados na aula 14.2, ref. ao BLOCO 14 (MOKS) do Módulo 2 (Desenvolvimento Front-end).
+
+- 10/08/22 - criado repositorio e lançado os exercicios criados na aula 14.3, ref. ao BLOCO 14 (TESTANDO REACT ROUTER) do Módulo 2 (Desenvolvimento Front-end).
+
