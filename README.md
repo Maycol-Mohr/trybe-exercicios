@@ -69,3 +69,5 @@
 
 - 31/08/22 - criado repositorio e lançado os exercicios criados na aula 15.1 - 15.2 - 15.3 - 15.4 - 15.5, ref. ao BLOCO 15 (REDUX) do Módulo 2 (Desenvolvimento Front-end).
 
+- 30/09/22 - criado repositorio e lançado os exercicios criados na aula 17.1 - 17.2 - 17.3, ref. ao BLOCO 17 (CONTEXT-API) do Módulo 2 (Desenvolvimento Front-end).
+
