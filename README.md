@@ -71,3 +71,5 @@
 
 - 30/09/22 - criado repositorio e lançado os exercicios criados na aula 17.1 - 17.2 - 17.3, ref. ao BLOCO 17 (CONTEXT-API) do Módulo 2 (Desenvolvimento Front-end).
 
+- 12/10/22 - criado repositorio e lançado os exercicios criados na aula 1.1 - 1.2 - 1.3, ref. ao BLOCO 1 (DOCKER) do Módulo 3 (Desenvolvimento Back-end).
+
